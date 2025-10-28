@@ -3218,7 +3218,7 @@ input, select, textarea {
 	#wrapper {
 		position: relative;
 		width: 100vw;
-		padding: 0 0 10rem 0;
+		padding: 0 0 0rem 0;
 	}
 
 		#wrapper:before {
@@ -3398,12 +3398,12 @@ input, select, textarea {
 		}
 
 			#wrapper section > header {
-				padding: 7.5rem 10rem 0 5rem;
+				padding: 5rem 10rem 0 5rem;
 				width: 35rem;
 			}
 
 			#wrapper section > .content {
-				padding: 7.5rem 5rem;
+				padding: 5rem 5rem 0rem 5rem;
   				background-color: #273441;
 			}
 
@@ -3458,13 +3458,14 @@ input, select, textarea {
 		}
 
 		#wrapper .copyright {
-			padding: 0 5rem;
+			padding: 1rem 5rem 8rem 5rem;
+			background-color: #273441;
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			#wrapper {
-				padding: 0 0 8rem 0;
+				padding: 0 0 5rem 0;
 			}
 
 				#wrapper section {
